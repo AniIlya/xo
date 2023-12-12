@@ -1,0 +1,103 @@
+.square{
+  background-color: white;
+  color: black;
+}
+
+.grid{
+  width: 150px;
+  height: 50px;
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+  position: relative;
+  display: block;
+
+}
+.icon{
+  margin: 5%  auto;
+ display: flex;
+ justify-content: center;
+ background-color: rgb(58, 237, 115);
+border: 1px solid rgb(36, 145, 71);
+}
+.container{
+  /* margin: 2% 0; */
+  display: flex;
+  justify-content: center;
+
+}
+.Pobeda1{
+width: 144px;
+padding: 1px;
+background-color: red;
+position: absolute;
+top: 25px;
+left: 2px;
+}
+.Pobeda2{
+  width: 144px;
+  padding: 1px;
+  background-color: red;
+  position: absolute;
+  top: 75px;
+  left: 2px;
+  }
+  .Pobeda3{
+      width: 144px;
+      padding: 1px;
+      background-color: red;
+      position: absolute;
+      top: 125px;
+      left: 2px;
+  }
+  .Pobeda4{
+      height: 144px;
+      padding: 1px;
+      background-color: red;
+      position: absolute;
+      left: 25px;
+      top: 2px;
+      }
+      .Pobeda5{
+          height: 144px;
+          padding: 1px;
+          background-color: red;
+          position: absolute;
+          left: 75px;
+          top: 2px;
+          }
+
+          .Pobeda6{
+              height: 144px;
+              padding: 1px;
+              background-color:red;
+              position: absolute;
+              left: 125px;
+              top: 2px;
+              }
+.Pobeda8{
+  height: 144px;
+  width: 0;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  border-bottom: 2px solid red;
+  border-right: 2px solid red;
+  -moz-transform: skew(45deg);
+  -webkit-transform: skew(45deg);
+  transform: skew(45deg);
+}
+.Pobeda7{
+  height: 144px;
+  width: 0;
+  position: absolute;
+  /* top: 1px; */
+  left: 70px;
+  border-bottom: 2px solid rgb(255, 0, 0);
+  border-right: 2px solid red;
+  -moz-transform: skew(-45deg);
+  -webkit-transform: skew(-45deg);
+  transform: skew(-45deg);
+}
